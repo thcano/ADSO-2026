@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADSO 5/02/2026</title>
+</head>
+
+<body>
+    <h1>Investigación</h1>
+    <h2>¿Qué es un título secundario?</h2>
+    <div>
+        <p>
+            En HTML los títulos van por niveles, del h1 al h6.
+        </p>
+        <p>&lt;h1&gt; sería el título principal, &lt;h2&gt; sería un título secundario</p>
+        <p>Un título secundario organiza el contenido.</p>
+    </div>
+    <h2>Anatomía del HTML</h2>
+    <p>HTML se compone de elementos, y cada elemento suele tener:
+        Etiqueta de apertura -
+        Contenido -
+        Etiqueta de cierre</p>
+        <p>Ejemplo de un elemento completo:</p>
+    &lt;etiqueta atributo="valor"&gt;Contenido&lt;/etiqueta&gt;
+    <h2>¿Qué es una etiqueta?</h2>
+    <p>Una etiqueta es una instrucción para el navegador. Le dice qué es cada cosa.</p>
+    <p>Ejemplos:</p>
+    <p>&lt;p&gt; → párrafo</p>
+    <p>&lt;h1&gt; → título</p>
+    <p>&lt;a&gt; → enlace</p>
+    <p>&lt;img&gt; → imagen</p>
+    <p>&lt;a&gt; → </p>
+    <h2>¿Qué es un atributo?</h2>
+    <p>Un atributo añade información extra a una etiqueta. Le da contexto o comportamiento.</p>
+    <p>&lt;a href="https://google.com"&gt;Ir a Google&lt;/a&gt</p>
+    <h3>Por ejemplo </h3>
+    <p>En el código: href es el atributo</p>
+    <a href="https://www.youtube.com/watch?v=1G4isv_Fylg">Escuchar Paradise de Coldpay</a>
+    <h2>¿Qué es un valor del atributo?</h2>
+    <p>Es el dato concreto que toma el atributo.</p>
+    <p>Atributo: href</p>
+    <p>Valor del atributo: "https://www.youtube.com/watch?v=1G4isv_Fylg"</p>
+    <h3>Siempre va entre comillas. El orden y la disciplina importan, incluso en código.</h3>
+    <h2>¿Qué diferencia hay entre una “etiqueta de apertura” y una de “apertura y cierre”?</h2>
+
+    <h3>Etiquetas con apertura y cierre</h3>
+
+    Tienen contenido entre ambas.
+
+    <h3>Ejemplo:</h3>
+    <p>Este es un párrafo</p>
+    <h4>"p" apertura "/p" cierre (Ver código)</h4>
+
+    <h3>Etiquetas de solamente apertura (Autocontenidas)</h3>
+    <p>No tienen contenido interno</p>
+    <h3>Ejemplo:</h3>
+    <p>&lt;img src="img/foto.jpg"&gt;
+        <br>
+    </p>
+    <img src="img/foto.jpg">
+    <br>
+    <!-- Pregunta, ¿por qué se dice que no tienen contenido si el contenido en este caso sería la imágen? -->
+    <h4>No cierran porque no hay nada que encerrar. Simple y lógico.</h4>
+    <h2>Explicar con un ejemplo la anatomía de una etiqueta</h2>
+    <img src="img/anatomia.png">
+    <br>
+    <h2>Despiece:</h2>
+
+    <p>&lt;a&gt; → etiqueta de apertura</p>
+    <p>&lt;href&gt; → atributo</p>
+    <p>"https://ejemplo.com" → valor del atributo</p>
+    <p>Visitar sitio → contenido</p>
+    <p>&lt;/a&gt; → etiqueta de cierre</p>
+    <h2>¿Cuáles son las etiquetas más usadas y de qué tipo son?</h2>
+    <h2>Estructurales</h2>
+    <p>&lt;html&gt;</p>
+    <p>&lt;head&gt;</p>
+    <p>&lt;body&gt;</p>
+    <h2>Texto y contenido</h2>
+    <p>&lt;h1&gt; a &lt;h6&gt; → títulos </p>
+    <p>&lt;p&gt; → párrafo</p>
+    <p>&lt;br&gt; → salto de línea</p>
+    <p>&lt;img&gt; → imagen</p>
+    <p>&lt;span&gt; → texto en línea</p>
+    <p>&lt;strong&gt; → texto en negrita, importante</p>
+    <p>&lt;em&gt; → Enfásis, texto en cursiva</p>
+    <h2>Enlaces</h2>
+    <p>&lt;a&gt; → enlace</p>
+    <p>&lt;img&gt; → imagen (solo apertura)</p>
+    <h2>Listas</h2>
+    <p>&lt;ul&gt; → lista desordenada</p>
+    <p>&lt;ol&gt; → lista ordenada</p>
+    <p>&lt;li&gt; → elemento de lista</p>
+    <h2>Contenedores</h2>
+    <p>&lt;div&gt; → contenedor genérico</p>
+    <p>&lt;section&gt; → sección del documento con significado</p>
+    <p>&lt;article&gt; → artículo o contenido independiente</p>
+    <em>HTML moderno valora la semántica: que cada cosa diga lo que es, no solo que “se vea bonito"</em>
+</body>
+
+</html>
